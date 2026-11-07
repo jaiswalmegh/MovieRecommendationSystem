@@ -1,0 +1,42 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+venv/
+env/
+.venv/
+ENV/
+
+.env
+.env.*
+
+.vscode/
+.idea/
+
+.ipynb_checkpoints/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+*.log
+logs/
+
+build/
+dist/
+*.egg-info/
+
+# Raw datasets
+data/raw/*.csv
+data/raw/*.zip
+
+# Generated processed data
+data/processed/*
+
+# Generated ML artifacts
+artifacts/*.pkl
+artifacts/*.joblib
+
+.DS_Store
+Thumbs.db
+desktop.ini
